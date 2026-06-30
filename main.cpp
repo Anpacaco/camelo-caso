@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include "combate.h"
 using namespace std;
 
 void saudacao() {
@@ -8,6 +10,11 @@ void saudacao() {
 void despedida(){
 	cout<<"Tchau, obrigado por usar o programa."<< endl;
 }
+
+exibir("Heroi", 100, 40){
+	cout<<vida;
+}
+	
 
 int main(){
 	saudacao();
